@@ -32,9 +32,10 @@ class Song extends React.Component{
   <ApolloProvider client= {client}>
   <div>
   <Query query={SONGS_QUERY}>
-    {({loading , data})=>{
+    {({loading , data , error})=>{
 
     if(loading) return "Loading...";
+    if(error) return "Server may be offline";
     const { allSongs } = data;
     return allSongs.map(song => <div class="GFont"> <li>
         <u>Name</u>:&nbsp;&nbsp;&nbsp;{song.Name}
