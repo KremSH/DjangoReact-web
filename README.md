@@ -1,4 +1,6 @@
+Basic React App using Apollo to render data from Django GraphQL API
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You will need these node_modules in the root directory to run this app: https://www.dropbox.com/s/nir1odgkn2qqg7e/node_modules.zip?dl=0
 
 ## Available Scripts
 
