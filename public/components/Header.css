@@ -1,0 +1,176 @@
+img.colorLogo{
+
+  padding: 5px;
+  padding-left:200px;
+  box-sizing: border-box;
+  width: 350px;
+
+
+}
+img.colorHit{
+
+  padding-left: 60px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  width: 250px;
+
+
+}
+
+img.profLogo{
+
+    padding: 5px;
+    padding-right:200px;
+    width: 260px;
+
+}
+
+@font-face{
+
+    font-family: BebasBook;
+    src :url('./BebasNeue Regular.ttf') format('truetype');
+
+}
+
+
+@font-face{
+
+    font-family : BebasBold;
+    src :url('./BebasNeue Bold.ttf') format('truetype');
+
+}
+
+.BookF{
+    font-family: BebasBook;
+    font-size: 200%;
+    text-align: right;
+    }
+
+.rED{
+    background-image: url("./Gradient.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width : 100%;
+    border-right: 100px solid white;
+    border-left: 100px solid white;
+}
+
+.BoldF{
+
+    font-family: BebasBold;
+    font-size: 400%;
+    color: white;
+    padding-left: 100px;
+
+}
+
+.BookG{
+
+    font-family: BebasBook;
+    color: white;
+    font-size: 185%;
+    padding-left: 100px;
+
+
+}
+
+.bOLDTWO{
+
+    font-family : BebasBold;
+    font-size: 75px;
+    padding-left:200px;
+
+
+}
+
+.boldSub{
+
+    font-family: BebasBold;
+    font-size : 38px;
+    padding-left:200px;
+
+
+}
+
+.bookSub{
+
+    font-family: BebasBook;
+    font-size : 25px;
+    padding-left:200px;
+
+}
+
+.bookSubred{
+
+    font-family: BebasBook;
+    font-size : 25px;
+    padding-left:200px;
+    color: red;
+
+}
+
+.Foot{
+
+background-color: black;
+border-right: 100px solid white;
+border-left: 100px solid white;
+  padding-bottom: 3px;
+    margin-bottom: -3px;
+
+
+}
+
+.Footdiv{
+
+padding-top:50px;
+
+}
+
+.WhiteLogo{
+
+  padding: 5px;
+  padding-left:100px;
+  box-sizing: border-box;
+  width: 250px;
+
+
+}
+
+.FootH{
+    font-family: BebasBook;
+    color: white;
+    padding-left: 400px;
+}
+
+.FootP{
+
+    font-family: BebasBook;
+    padding-left:100px;
+    font-size: 22px;
+    color: white;
+    opacity : 0.7;
+    padding-bottom: 30px;
+
+}
+
+.CopyW{
+
+    float: right;
+    padding-right: 200px;
+
+
+}
+
+a{
+
+color: inherit;
+
+}
+
+.GFont{
+
+font-family: BebasBook;
+font-size : 25px;
+
+}
