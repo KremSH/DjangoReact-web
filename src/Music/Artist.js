@@ -33,9 +33,10 @@ class Artist extends React.Component{
   <ApolloProvider client= {client}>
   <div>
   <Query query={ARTISTS_QUERY}>
-    {({loading , data})=>{
+    {({loading , data, error})=>{
 
     if(loading) return "Loading...";
+    if(error) return "Server may be offline";
     const { allArtists } = data;
     return allArtists.map(artist => <div class="GFont"><li>
         <u>Name</u>:&nbsp;&nbsp;&nbsp;{artist.Name}
