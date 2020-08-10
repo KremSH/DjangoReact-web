@@ -33,9 +33,10 @@ class Album extends React.Component{
   <ApolloProvider client= {client}>
   <div>
   <Query query={ALBUMS_QUERY}>
-    {({loading , data})=>{
+    {({loading , data, error})=>{
 
     if(loading) return "Loading...";
+    if(error) return "Server may be offline";
     const { allAlbums } = data;
     return allAlbums.map(album => <div class="GFont"><li>
         <u>Name</u>:&nbsp;&nbsp;&nbsp;{album.Name}
